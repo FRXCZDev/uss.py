@@ -9082,7 +9082,7 @@ f'{ige} 313.0.0.26.328 Android (32/13; 320dpi; 1080x2340; Vivo; V2218A; V2218A; 
         return self.generate_useragent()
     
     def replace_instagram_with_barcelona(self, text):
-        return text.replace("Instagram", "Barcelona")
+        return text.replace("Insta", "Barcelona")
     
     def useragent_threads(self):
         input_text = self.generate_useragent()
